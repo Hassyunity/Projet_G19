@@ -2,7 +2,7 @@ commande symfony not found:
 export PATH="$HOME/.symfony/bin:$PATH"
 
 token acces git hub:
-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
+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
 
 commnde git hub:
 	git clone repository #clonage du repertoire github

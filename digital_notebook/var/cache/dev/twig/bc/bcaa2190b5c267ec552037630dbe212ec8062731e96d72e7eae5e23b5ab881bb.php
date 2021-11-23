@@ -1306,6 +1306,6 @@ $context["voter_detail"], "vote", [], "array", false, false, false, 357) == twig
         </table>
     {% endif %}
 {% endblock %}
-", "@Security/Collector/security.html.twig", "/home/hassy/Documents/Projet_esti/digital_notebook/vendor/symfony/security-bundle/Resources/views/Collector/security.html.twig");
+", "@Security/Collector/security.html.twig", "/home/hassy/Documents/Projet_esti_g19/Projet_g19/digital_notebook/vendor/symfony/security-bundle/Resources/views/Collector/security.html.twig");
     }
 }

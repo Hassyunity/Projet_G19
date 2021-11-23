@@ -691,6 +691,6 @@ class __TwigTemplate_c121f18204654224880442d433a20b0aed84cafaba95d5a37530e41a150
 {% block form_group_class -%}
     col-sm-10
 {%- endblock form_group_class %}
-", "bootstrap_5_horizontal_layout.html.twig", "/home/hassy/Documents/Projet_esti/digital_notebook/vendor/symfony/twig-bridge/Resources/views/Form/bootstrap_5_horizontal_layout.html.twig");
+", "bootstrap_5_horizontal_layout.html.twig", "/home/hassy/Documents/Projet_esti_g19/Projet_g19/digital_notebook/vendor/symfony/twig-bridge/Resources/views/Form/bootstrap_5_horizontal_layout.html.twig");
     }
 }

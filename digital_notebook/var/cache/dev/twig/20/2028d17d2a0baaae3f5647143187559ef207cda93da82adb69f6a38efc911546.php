@@ -71,6 +71,6 @@ class __TwigTemplate_3fd4a04f343bd8a9abb9f28e1795636fe55e141dfcd97ed5e19bc15a1c0
     public function getSourceContext()
     {
         return new Source("{% extends \"@email/zurb_2/notification/body.txt.twig\" %}
-", "@email/default/notification/body.txt.twig", "/home/hassy/Documents/Projet_esti/digital_notebook/vendor/symfony/twig-bridge/Resources/views/Email/default/notification/body.txt.twig");
+", "@email/default/notification/body.txt.twig", "/home/hassy/Documents/Projet_esti_g19/Projet_g19/digital_notebook/vendor/symfony/twig-bridge/Resources/views/Email/default/notification/body.txt.twig");
     }
 }

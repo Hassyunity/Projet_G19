@@ -99,6 +99,6 @@ class __TwigTemplate_a487589447d46e2bc2ae9253a4c2e2ee65f293faacee21d58c30ed22e71
 .container.body_default {
     border-top: 8px solid #aaaaaa;
 }
-", "@email/zurb_2/notification/local.css", "/home/hassy/Documents/Projet_esti/digital_notebook/vendor/symfony/twig-bridge/Resources/views/Email/zurb_2/notification/local.css");
+", "@email/zurb_2/notification/local.css", "/home/hassy/Documents/Projet_esti_g19/Projet_g19/digital_notebook/vendor/symfony/twig-bridge/Resources/views/Email/zurb_2/notification/local.css");
     }
 }

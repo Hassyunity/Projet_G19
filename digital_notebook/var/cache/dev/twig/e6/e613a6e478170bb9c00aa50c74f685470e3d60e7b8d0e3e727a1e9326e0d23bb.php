@@ -843,6 +843,6 @@ class __TwigTemplate_97ebc693c1ca69f00bb23ca78c65e5cf442525d67b892ffe0fb1c8384d4
     </table>
     {% endfor %}
 {% endmacro %}
-", "@WebProfiler/Collector/messenger.html.twig", "/home/hassy/Documents/Projet_esti/digital_notebook/vendor/symfony/web-profiler-bundle/Resources/views/Collector/messenger.html.twig");
+", "@WebProfiler/Collector/messenger.html.twig", "/home/hassy/Documents/Projet_esti_g19/Projet_g19/digital_notebook/vendor/symfony/web-profiler-bundle/Resources/views/Collector/messenger.html.twig");
     }
 }

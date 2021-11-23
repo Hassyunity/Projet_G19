@@ -1190,6 +1190,6 @@ div.sf-toolbar .sf-toolbar-block a:hover {
         display: none !important;
     }
 }
-", "@WebProfiler/Profiler/toolbar.css.twig", "/home/hassy/Documents/Projet_esti/digital_notebook/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/toolbar.css.twig");
+", "@WebProfiler/Profiler/toolbar.css.twig", "/home/hassy/Documents/Projet_esti_g19/Projet_g19/digital_notebook/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/toolbar.css.twig");
     }
 }

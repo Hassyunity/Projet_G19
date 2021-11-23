@@ -220,6 +220,6 @@ a.doc:hover {
     top: -7em;
     visibility: hidden;
 }
-", "@WebProfiler/Profiler/open.css.twig", "/home/hassy/Documents/Projet_esti/digital_notebook/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/open.css.twig");
+", "@WebProfiler/Profiler/open.css.twig", "/home/hassy/Documents/Projet_esti_g19/Projet_g19/digital_notebook/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/open.css.twig");
     }
 }

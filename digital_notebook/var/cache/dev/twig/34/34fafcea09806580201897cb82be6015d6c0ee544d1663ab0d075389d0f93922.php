@@ -191,6 +191,6 @@ class __TwigTemplate_3159dfa3e4f9e027c97bdf782e4593c180d4836dd56c6ba07d317df347b
         {% block body %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "/home/hassy/Documents/Projet_esti/digital_notebook/templates/base.html.twig");
+", "base.html.twig", "/home/hassy/Documents/Projet_esti_g19/Projet_g19/digital_notebook/templates/base.html.twig");
     }
 }

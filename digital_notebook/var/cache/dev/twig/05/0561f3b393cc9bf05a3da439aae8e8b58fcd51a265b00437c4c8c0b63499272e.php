@@ -171,6 +171,6 @@ class __TwigTemplate_898eca4a4db8910d6ba43226e4bb45916bc489c2dc40601364aac69cde3
         {%- endfor -%}
     </pre>
 {% endif %}
-", "@Doctrine/Collector/explain.html.twig", "/home/hassy/Documents/Projet_esti/digital_notebook/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig");
+", "@Doctrine/Collector/explain.html.twig", "/home/hassy/Documents/Projet_esti_g19/Projet_g19/digital_notebook/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig");
     }
 }

@@ -439,6 +439,6 @@ class __TwigTemplate_14b9e3af3704d53f1f1f31452dedbfe897306b931dba0884c1be4df46c0
     {%- set widget_class = widget_class|default('mr-2') -%}
     {{- parent() -}}
 {%- endblock radio_widget -%}
-", "tailwind_2_layout.html.twig", "/home/hassy/Documents/Projet_esti/digital_notebook/vendor/symfony/twig-bridge/Resources/views/Form/tailwind_2_layout.html.twig");
+", "tailwind_2_layout.html.twig", "/home/hassy/Documents/Projet_esti_g19/Projet_g19/digital_notebook/vendor/symfony/twig-bridge/Resources/views/Form/tailwind_2_layout.html.twig");
     }
 }

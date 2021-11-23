@@ -4,11 +4,11 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInite6ca78e7e8a71922f6d2d3810dc4ce40
+class ComposerStaticInitc93dee72d1649aee656789c2024e3267
 {
     public static $files = array (
-        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
+        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
@@ -5821,6 +5821,7 @@ class ComposerStaticInite6ca78e7e8a71922f6d2d3810dc4ce40
         'Symfony\\Contracts\\HttpClient\\Test\\HttpClientTestCase' => __DIR__ . '/..' . '/symfony/http-client-contracts/Test/HttpClientTestCase.php',
         'Symfony\\Contracts\\HttpClient\\Test\\TestHttpServer' => __DIR__ . '/..' . '/symfony/http-client-contracts/Test/TestHttpServer.php',
         'Symfony\\Contracts\\Service\\Attribute\\Required' => __DIR__ . '/..' . '/symfony/service-contracts/Attribute/Required.php',
+        'Symfony\\Contracts\\Service\\Attribute\\SubscribedService' => __DIR__ . '/..' . '/symfony/service-contracts/Attribute/SubscribedService.php',
         'Symfony\\Contracts\\Service\\ResetInterface' => __DIR__ . '/..' . '/symfony/service-contracts/ResetInterface.php',
         'Symfony\\Contracts\\Service\\ServiceLocatorTrait' => __DIR__ . '/..' . '/symfony/service-contracts/ServiceLocatorTrait.php',
         'Symfony\\Contracts\\Service\\ServiceProviderInterface' => __DIR__ . '/..' . '/symfony/service-contracts/ServiceProviderInterface.php',
@@ -6210,9 +6211,9 @@ class ComposerStaticInite6ca78e7e8a71922f6d2d3810dc4ce40
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInite6ca78e7e8a71922f6d2d3810dc4ce40::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInite6ca78e7e8a71922f6d2d3810dc4ce40::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInite6ca78e7e8a71922f6d2d3810dc4ce40::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitc93dee72d1649aee656789c2024e3267::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitc93dee72d1649aee656789c2024e3267::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitc93dee72d1649aee656789c2024e3267::$classMap;
 
         }, null, ClassLoader::class);
     }

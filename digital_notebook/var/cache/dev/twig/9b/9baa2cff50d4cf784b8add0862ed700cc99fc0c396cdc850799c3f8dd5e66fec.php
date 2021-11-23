@@ -1734,6 +1734,6 @@ if (typeof Sfjs === 'undefined' || typeof Sfjs.loadToolbar === 'undefined') {
     });
 }
 /*]]>*/</script>
-", "@WebProfiler/Profiler/base_js.html.twig", "/home/hassy/Documents/Projet_esti/digital_notebook/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/base_js.html.twig");
+", "@WebProfiler/Profiler/base_js.html.twig", "/home/hassy/Documents/Projet_esti_g19/Projet_g19/digital_notebook/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/base_js.html.twig");
     }
 }

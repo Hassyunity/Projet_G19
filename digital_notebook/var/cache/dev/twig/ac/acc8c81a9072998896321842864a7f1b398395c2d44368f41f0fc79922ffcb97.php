@@ -197,6 +197,6 @@ $context["name"], "profiler_markup_version" =>                 // line 17
     </button>
 </div>
 <!-- END of Symfony Web Debug Toolbar -->
-", "@WebProfiler/Profiler/toolbar.html.twig", "/home/hassy/Documents/Projet_esti/digital_notebook/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/toolbar.html.twig");
+", "@WebProfiler/Profiler/toolbar.html.twig", "/home/hassy/Documents/Projet_esti_g19/Projet_g19/digital_notebook/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/toolbar.html.twig");
     }
 }

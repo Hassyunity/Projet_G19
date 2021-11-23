@@ -3395,6 +3395,6 @@ body.outlook p {
         min-width: 0;
     }
 }
-", "@email/zurb_2/main.css", "/home/hassy/Documents/Projet_esti/digital_notebook/vendor/symfony/twig-bridge/Resources/views/Email/zurb_2/main.css");
+", "@email/zurb_2/main.css", "/home/hassy/Documents/Projet_esti_g19/Projet_g19/digital_notebook/vendor/symfony/twig-bridge/Resources/views/Email/zurb_2/main.css");
     }
 }

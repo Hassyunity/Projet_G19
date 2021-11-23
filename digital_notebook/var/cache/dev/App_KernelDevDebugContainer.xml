@@ -452,6 +452,7 @@
         <argument key="form.type.entity" type="service" id="form.type.entity" on-invalid="ignore_uninitialized"/>
         <argument key="security.token_storage" type="service" id="security.token_storage" on-invalid="ignore_uninitialized"/>
         <argument key="cache.security_expression_language" type="service" id="cache.security_expression_language" on-invalid="ignore_uninitialized"/>
+        <argument key=".debug.http_client" type="service" id=".debug.http_client" on-invalid="ignore_uninitialized"/>
       </argument>
       <argument type="collection">
         <argument key="cache.app" type="collection">
@@ -510,6 +511,9 @@
           <argument>setToken</argument>
         </argument>
         <argument key="cache.security_expression_language" type="collection">
+          <argument>reset</argument>
+        </argument>
+        <argument key=".debug.http_client" type="collection">
           <argument>reset</argument>
         </argument>
       </argument>

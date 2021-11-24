@@ -91,7 +91,7 @@ final class Versions
   'symfony/var-exporter' => 'v5.3.11@b16fcf355b810bcbccc2c6eac1d016725dbf9002',
   'nikic/php-parser' => 'v4.13.1@63a79e8daa781cac14e5195e63ed8ae231dd10fd',
   'symfony/maker-bundle' => 'v1.36.3@0f40c826c0725208c254ddcd3481690e6c7e5047',
-  '__root__' => 'dev-devupesti@e8b0ec4d7e859993332010d2a2771ba14715ac75',
+  '__root__' => 'dev-devupesti@81098edc3011207eadfbf1a8ba970ea22b7ea96c',
 );
 
     private function __construct()

@@ -27,11 +27,11 @@ class AdminController extends AbstractController {
     {
         $userFirstName = 'name';
 
-        // return new Response('page admin');
-        return $this->render('admin/index.html.twig',
-        [
-            'user_first_name' => $userFirstName,
-        ]);
+        return new Response('page admin');
+        // return $this->render('admin/index.html.twig',
+        // [
+        //     'user_first_name' => $userFirstName,
+        // ]);
     }
 
 }

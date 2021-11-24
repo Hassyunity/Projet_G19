@@ -19,7 +19,7 @@ class HomeController {
 
     function home(){
         return new Response('Cahier de texte numerique');
-        // return new Response($this->twig->render('home/index.html.twig'));
+        // return new Response($this->twig->render('admin/index.html.twig'));
     }
 
 }

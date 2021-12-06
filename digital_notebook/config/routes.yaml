@@ -6,6 +6,13 @@ admin:
   path: /admin
   controller: App\Controller\AdminController::admin
 
+prof:
+  path: /prof
+  controller: App\Controller\ProfController::prof
+
+student:
+  path: /student 
+  controller: App\controller\StudentController::student
 
 login:
   path: /login

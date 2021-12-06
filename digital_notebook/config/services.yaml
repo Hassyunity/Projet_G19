@@ -22,6 +22,9 @@ services:
             - '../src/Tests/'
         # tag: ['controller.service_arguments']
 
+    # calls:
+    #     - [setContainer, ['@service_container' ContainerInterface ]]
+
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
         # tag: ['controller.service_arguments']

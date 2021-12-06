@@ -16,6 +16,6 @@ if (!\class_exists(App_KernelDevDebugContainer::class, false)) {
 
 return new \ContainerJGzWSRX\App_KernelDevDebugContainer([
     'container.build_hash' => 'JGzWSRX',
-    'container.build_id' => '2f6cd9f5',
-    'container.build_time' => 1637900584,
+    'container.build_id' => '2904ffb9',
+    'container.build_time' => 1638797013,
 ], __DIR__.\DIRECTORY_SEPARATOR.'ContainerJGzWSRX');

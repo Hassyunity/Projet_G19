@@ -17,6 +17,8 @@ return [
     '_preview_error' => [['code', '_format'], ['_controller' => 'error_controller::preview', '_format' => 'html'], ['code' => '\\d+'], [['variable', '.', '[^/]++', '_format', true], ['variable', '/', '\\d+', 'code', true], ['text', '/_error']], [], []],
     'home' => [[], ['_controller' => 'App\\Controller\\HomeController::home'], [], [['text', '/']], [], []],
     'admin' => [[], ['_controller' => 'App\\Controller\\AdminController::admin'], [], [['text', '/admin']], [], []],
+    'prof' => [[], ['_controller' => 'App\\Controller\\ProfController::prof'], [], [['text', '/prof']], [], []],
+    'student' => [[], ['_controller' => 'App\\controller\\StudentController::student'], [], [['text', '/student']], [], []],
     'login' => [[], ['_controller' => 'App\\Controller\\LoginController::login'], [], [['text', '/login']], [], []],
     'prof_log' => [[], ['_controller' => 'App\\Controller\\ProfController::prof_log'], [], [['text', '/prof_log']], [], []],
     'student_log' => [[], ['_controller' => 'App\\Controller\\StudentController::student_log'], [], [['text', '/student_log']], [], []],

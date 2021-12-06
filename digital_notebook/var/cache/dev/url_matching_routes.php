@@ -15,6 +15,8 @@ return [
         '/_profiler/open' => [[['_route' => '_profiler_open_file', '_controller' => 'web_profiler.controller.profiler::openAction'], null, null, null, false, false, null]],
         '/' => [[['_route' => 'home', '_controller' => 'App\\Controller\\HomeController::home'], null, null, null, false, false, null]],
         '/admin' => [[['_route' => 'admin', '_controller' => 'App\\Controller\\AdminController::admin'], null, null, null, false, false, null]],
+        '/prof' => [[['_route' => 'prof', '_controller' => 'App\\Controller\\ProfController::prof'], null, null, null, false, false, null]],
+        '/student' => [[['_route' => 'student', '_controller' => 'App\\controller\\StudentController::student'], null, null, null, false, false, null]],
         '/login' => [[['_route' => 'login', '_controller' => 'App\\Controller\\LoginController::login'], null, null, null, false, false, null]],
         '/prof_log' => [[['_route' => 'prof_log', '_controller' => 'App\\Controller\\ProfController::prof_log'], null, null, null, false, false, null]],
         '/student_log' => [[['_route' => 'student_log', '_controller' => 'App\\Controller\\StudentController::student_log'], null, null, null, false, false, null]],

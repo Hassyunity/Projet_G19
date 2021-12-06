@@ -24,4 +24,9 @@ class ProfController  extends AbstractController {
         return $this->render('prof_log/index.html.twig');
     }
 
+    function prof()
+    {
+        return $this->render('prof/index.html.twig');
+    }
+
 }

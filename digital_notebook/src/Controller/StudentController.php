@@ -5,7 +5,7 @@ namespace App\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-// use Twig\Environment;
+use Twig\Environment;
 class StudentController  extends AbstractController {
 
     /**
@@ -22,6 +22,11 @@ class StudentController  extends AbstractController {
     {
         
         return $this->render('student_log/index.html.twig');
+    }
+
+    function student()
+    {
+        return $this->render('student/index.html.twig');
     }
 
 }

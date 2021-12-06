@@ -6,7 +6,10 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Controller\\AdminController' => $baseDir . '/src/Controller/AdminController.php',
     'App\\Controller\\HomeController' => $baseDir . '/src/Controller/HomeController.php',
+    'App\\Controller\\LoginController' => $baseDir . '/src/Controller/LoginController.php',
+    'App\\Controller\\VerificationController' => $baseDir . '/src/Controller/VerificationController.php',
     'App\\Kernel' => $baseDir . '/src/Kernel.php',
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
     'Behat\\Transliterator\\SyncTool' => $vendorDir . '/behat/transliterator/src/Behat/Transliterator/SyncTool.php',

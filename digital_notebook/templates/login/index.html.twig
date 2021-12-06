@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- importer le fichier de style -->
+        <link rel="stylesheet" href="login.css" media="screen" type="text/css" />
+    </head>
+    <body>
+        <div id="container">
+            <!-- zone de connexion -->
+            {# <form action="verification/index.php" method="POST"> #}
+            <form action="admin" method="POST">
+                <h1>Connexion</h1>
+                
+                <label><b>Nom d'admin</b></label>
+                <input type="text" placeholder="Entrer le nom de l'administrateur" name="username" required>
+
+                <label><b>Mot de passe</b></label>
+                <input type="password" placeholder="Entrer le mot de passe" name="password" required>
+
+                <input type="submit" id='submit' value='LOGIN' >
+                {% if (_GET['erreur'] is defined) %}
+{% set err = _GET['erreur'] %}
+{% if (err == 1 or err == 2) %}
+{{ "<p style='color:red'>Utilisateur ou mot de passe incorrect</p>" }}{% endif %}
+{% endif %}
+
+            </form>
+        </div>
+    </body>
+</html>

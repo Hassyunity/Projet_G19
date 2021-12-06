@@ -1,7 +1,47 @@
-{% extends 'base.html.twig' %}
-{% block title %} HomeController! {% endblock %}
-
 {% block body%}
+	<html>
+		<head>
+			<meta
+			charset="utf-8">
+			<!-- importer le fichier de style -->
+			<link rel="stylesheet" href="home.css" media="screen" type="text/css"/>
+		</head>
+		<body>
+			<div id="container">
+				<div class="row">
+
+
+					<h2>
+						<i>BIENVENUE <br> SUR
+						</i>
+					</h2>
+					<img src="/images/logo.png" alt="Logo">
+					<p class="texte">Se connecter en tant que:</p>
+
+
+					<a href="/login" class="adminlien">
+						<div class="test">
+							Admin
+						</div>
+					</a>
+
+					<a href="/prof_log" class="proflien">
+						<div class="test">
+							Professeur
+						</div>
+					</a>
+
+					<a href="/student_log" class="etudiantlien">
+						<div class="test">
+							Etudiant
+						</div>
+					</a>
+
+
+				</div>
+			</div>
+		</body>
+	</html>
 
 
 {% endblock %}

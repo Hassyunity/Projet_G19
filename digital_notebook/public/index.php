@@ -2,6 +2,8 @@
 
 use App\Kernel;
 
+// require 'vendor/autoload.php';
+
 require_once dirname(__DIR__).'/vendor/autoload_runtime.php';
 
 return function (array $context) {

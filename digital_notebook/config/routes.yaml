@@ -1,9 +1,27 @@
 home:
-  path: /home
+  path: /
   controller: App\Controller\HomeController::home
   
 admin:
   path: /admin
   controller: App\Controller\AdminController::admin
+
+
+login:
+  path: /login
+  controller: App\Controller\LoginController::login
+
+prof_log:
+  path: /prof_log
+  controller: App\Controller\ProfController::prof_log
+
+student_log:
+  path: /student_log
+  controller: App\Controller\StudentController::student_log
+
+verification:
+  path: /verification/index.php
+  controller: App\Controller\LoginController::verification
+  
 
 

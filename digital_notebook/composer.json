@@ -98,5 +98,11 @@
             "allow-contrib": false,
             "require": "5.3.*"
         }
+    },
+    "google_api":
+    {
+        "require": {
+            "google/apiclient": "^2.2"
+        }
     }
 }

@@ -2,10 +2,11 @@
 
 namespace App\Controller;
 
-// use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Routing\Annotation\Route;
 // use Twig\Environment;
-class HomeController {
+class HomeController  extends AbstractController {
 
     /**
      * 
@@ -17,9 +18,10 @@ class HomeController {
         $this->twig = $twig;
     }
 
-    function home(){
-        return new Response('Cahier de texte numerique');
-        // return new Response($this->twig->render('admin/index.html.twig'));
+    function home()
+    {
+        // return new Response('Cahier de texte numerique');
+        return $this->render('home/index.html.twig');
     }
 
 }
